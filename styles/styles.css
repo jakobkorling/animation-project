@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+}
+
+.header-content {
+    max-width: 1200px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-svg {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.hero,
+.portfolio {
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+}
