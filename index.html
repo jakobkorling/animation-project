@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Jakob Körling</title>
 </head>
 <body>
     <header class="header">
+        <!--content in header-->
         <div class="header-content">
+            <!--camera-icon in header-->
             <div class="header-svg">
-                <svg class="camera-svg" width="150" height="120" viewBox="0 0 300 240" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                    <rect x="100" y="90" width="60" height="40" rx="10" ry="5" stroke-width="3" fill="white" stroke="black"/>
-                    <rect x="50" y="110" width="200" height="100" rx="15" ry="15" stroke-width="3" fill="white" stroke="black"/>
+                <svg class="camera-svg animate__animated animate__pulse animate__infinite" width="150" height="120" viewBox="0 0 300 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="svg-rect" x="100" y="90" width="60" height="40" rx="10" ry="5" stroke-width="3" fill="black" stroke="white"/>
+                    <rect class="svg-rect" x="50" y="110" width="200" height="100" rx="15" ry="15" stroke-width="3" fill="black" stroke="white"/>
                     <circle cx="150" cy="160" r="30" stroke-width="3" fill="white" stroke="black"/>
                 </svg>
             </div>
@@ -25,43 +31,54 @@
 
     <section class="hero">
         <div class="hero-content">
-            <p>My vision is to capture the magic in each moment and let my pictures tell the story. </p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus aut quae commodi aliquid? Quaerat, porro velit. Consequatur fuga nihil ad perspiciatis obcaecati in, quam sit neque. Impedit molestias porro fugit?</p>
+            <h2>My vision is to capture the magic in each moment and let my pictures tell the story. </h2>
         </div>
     </section>
 
+    <section class="gallery">
+        <!--container for images in gallery-->
+        <div class="gallery-container">
 
-    <section class="portfolio">
-        <div class="portfolio-container">
-            <div class="portfolio-images">
-
+            <div class="image image1">
+                <img src="images/sitges-palm.jpg" alt="A black and white picture of a group of old men sitting in the shade of a palm tree">
             </div>
-            <div class="portfolio-images">
-                
+            <div class="image image2">
+                <img src="images/bcn-beach.jpg" alt="A black and white picture of people on a crowded beach">
             </div>
-            <div class="portfolio-images">
-                
+            <div class="image image3">
+                <img src="images/malmo-church.jpg" alt="A black and white picture of an avenue with a church in the far distance">
             </div>
-            <div class="portfolio-images">
-                
+            <div class="image image4">
+                <img src="images/oldman.jpg" alt="A black and white picture of an old man walking in an avenue of trees">
             </div>
-            <div class="portfolio-images">
-                
+            <div class="image image5">
+                <img src="images/albin.jpg" alt="A black and white picture of a young man in a cap sitting in a garden">
             </div>
-            <div class="portfolio-images">
-                
-            </div>
-            <div class="portfolio-images">
-                
-            </div>
-            <div class="portfolio-images">
-                
-            </div>
-            <div class="portfolio-images">
-                
+            <div class="image image6">
+                <img src="images/youssef.jpg" alt="A black and white picture of two men talking to each other">
             </div>
         </div>
-
     </section>
+
+    <footer class="footer">
+        <!--content in footer-->
+        <div class="footer-content">
+            <!--left part of footer-->
+            <div class="footer-left">
+                <a href="https://www.youtube.com/@Jakob463/videos" target="_blank" rel="noopener noreferrer">
+                    <img src="images/youtube.svg" class="youtube-icon animate__animated animate__wobble" alt="A youtube icon">
+                </a>
+            </div>
+
+            <!--right part of footer-->
+            <div class="footer-right">
+                <p>jakobkorling@gmail.com</p>
+                <svg class="mail-icon animate__animated animate__swing" viewBox="0 0 64 48" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="60" height="44" rx="1" ry="1" fill="none" stroke="black" stroke-width="4"/>
+                    <polyline points="2,2 32,24 62,2" fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
